@@ -1,3 +1,22 @@
+@font-face {
+  src: url(../fonts/Heebo/Heebo-Black.ttf);
+  font-family: Heebo-Black;
+}
+
+@font-face {
+  font-family: Heebo-Bold;
+  src: url(../fonts/Heebo/Heebo-Bold.ttf);
+}
+
+@font-face {
+  font-family:Heebo-ExtraBold ;
+  src: url(../fonts/Heebo/Heebo-ExtraBold.ttf);
+}
+
+
+body {
+  width: 100%;
+}
 /** Header **/
 .container {
   width: 1440px;
@@ -8,6 +27,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.main-header__action {
+  color: hsl(321, 100%, 78%);
+  border-color: hsl(321, 100%, 78%);
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 30px;
+  font-family: Heebo-Bold;
+  font-weight: 50;
+  font-size: 15px;
+  border-radius: 20px;
 }
 
 .clearfix {
@@ -22,35 +53,177 @@
 }
 
 .community__title{
-
+  font-family: Heebo-Bold;
   margin-top: 150px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: capitalize;
   color: #05364d;
 }
 
 .community__subtitle {
-
-  font-family: 'Untitled Sans';
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: -0.20px;
+padding: 0 400px;
+justify-content: center;
+font-size: 25px;
+font-weight: 500;
+font-family: Heebo;
+font-display: inherit;
 }
 
 .community__action {
-  background-color: deeppink;
-  font-size: 15px;
-  font-weight: 500;
+  border-radius: 20px;
+  padding: 20px 80px;
+  border-color: hsl(321, 100%, 78%);
+  background-color:hsl(322, 100%, 66%);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Heebo;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 70px;
   color: white;
-  padding: 20px 50px;
-  border-radius: 10px;
-  border-color: deeppink;
-  margin: 50px 0;
 }
 
 .community-image img {
   width: 800px;
+}
+
+/* statistics section*/
+
+.statistics-section{
+display: flex;
+justify-content: space-between;
+}
+
+
+.statistics-section__items{
+padding: 50px 300px ;
+justify-items: center;
+}
+
+.statistics-section__number {
+  margin: 0 0;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Heebo-Bold;
+}
+
+.statistics-section__subtitle {
+  font-size: 20px;
+  font-family: Heebo-Black;
+  color: #797979;
+}
+/*  Grow Together section */
+.grow-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grow-section__title {
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 300px;
+  font-family: Heebo-ExtraBold;
+}
+
+.grow-section__subtitle {
+  padding: 5px 90px;
+  font-size: 25px;
+  font-family: Heebo;
+  font-weight: 300;
+}
+
+.grow-section__img img {
+  width: 500px;
+}
+
+/*   Flowing Conversations*/
+.flowing-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px; 
+  align-items: center;
+}
+
+.flowing-section__title {
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 200px;
+  font-family: Heebo-ExtraBold;
+}
+
+.flowing-section__subtitle {
+  padding: 5px 100px;
+  font-size: 25px;
+  font-family: Heebo;
+  font-weight: 300;
+}
+.flowing-section__img img {
+  width: 500px;
+}
+
+/*   Your Users */
+
+.users-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users-section__title {
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 200px;
+  font-family: Heebo-ExtraBold;
+}
+
+.users-section__subtitle {
+  padding: 5px 150px;
+  font-size: 25px;
+  font-family: Heebo;
+  font-weight: 300;
+}
+
+.users-section__img img {
+  width: 500px;
+}
+/* Ready section */
+.ready-section {
+  display: flex;
+  justify-content: center;
+}
+
+.ready-title {
+
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Heebo-ExtraBold;
+}
+
+.ready-button {
+  border-radius: 50px;
+  padding: 30px 100px;
+  border-color: hsl(321, 100%, 78%);
+  background-color:hsl(322, 100%, 66%);
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Heebo;
+  margin-left: 250px;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  
+  color: white;
+}
+/* Footer section*/
+.footer-section {
+padding: auto;
+}
+.footer-section__banner img {
+  
+  z-index: -1;
 }
 
 .attribution { font-size: 11px; text-align: center; }
