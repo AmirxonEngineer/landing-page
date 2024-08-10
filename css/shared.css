@@ -1,0 +1,38 @@
+@font-face {
+  src: url(../fonts/Heebo/Heebo-Black.ttf);
+  font-family: Heebo-Black;
+}
+
+@font-face {
+  font-family: Heebo-Bold;
+  src: url(../fonts/Heebo/Heebo-Bold.ttf);
+}
+
+@font-face {
+  font-family:Heebo-ExtraBold ;
+  src: url(../fonts/Heebo/Heebo-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+@media only screen and (max-width: 375px) {
+  
+}
+
+
+.button {
+  border-color: hsl(321, 100%, 78%);
+  background-color:hsl(322, 100%, 66%);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Heebo;
+  color: white;
+}
