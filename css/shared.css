@@ -23,10 +23,6 @@
   src: url(../fonts/OpenSans/OpenSans-Light.ttf);
 }
 
-@media only screen and (max-width: 375px) {
-  
-}
-
 
 .button {
   border-color: hsl(321, 100%, 78%);
